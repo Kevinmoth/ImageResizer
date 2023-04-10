@@ -56,7 +56,7 @@ cuadro_alto.pack()
 boton_redimensionar = Button(ventana, text='Redimensionar', command=redimensionar_imagen, padx=20, pady=20)
 boton_redimensionar.pack(pady=10)
 
-etiqueta_imagen = Label(ventana, pady=10)
+etiqueta_imagen = Label(ventana, pady=20)
 etiqueta_imagen.pack()
 
 ventana.geometry("300x300")
